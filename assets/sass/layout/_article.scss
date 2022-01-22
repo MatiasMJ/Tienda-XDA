@@ -1,0 +1,24 @@
+.product {
+    padding: 30px;
+    color: $color-smoky-black;
+
+    &__title{
+        font-family: $old-standard;
+        font-size: $fz-xx-large;
+        font-weight: $bold-weigth;
+        text-transform: uppercase;
+        line-height: normal;
+    }
+
+    &__paragraph{
+        color: $color-granite-gray;
+        margin: 15px 0;
+    }
+
+    &__button{
+        border: solid 3px $color-smoky-black;
+        width: 100px;
+        height: 40px;
+        font-weight: $bold-weigth;
+    }
+}

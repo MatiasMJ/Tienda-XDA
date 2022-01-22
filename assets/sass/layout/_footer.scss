@@ -1,0 +1,22 @@
+.footer{
+    background-color: $color-smoky-black;
+    color: $color-white;
+    padding: 30px;
+    display: flex;
+
+    &__title{
+        font-family: $old-standard;
+        font-size: $fz-xx-large;
+        font-weight: $bold-weigth;
+    }
+
+    &__input{
+        background-color: $color-white;
+    }
+    
+    &__subscribe{
+        background-color: $color-white;
+        color: $color-smoky-black;
+        writing-mode: vertical-lr;
+    }
+}

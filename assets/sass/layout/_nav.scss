@@ -1,0 +1,39 @@
+.navbar{
+    background-color: $color-isabelline;
+    display: flex;
+    height: 70px;
+    
+
+    &__logo{
+        background-color: $color-smoky-black;
+        color: $color-white;
+        font-family: 'Old Standard TT';
+        font-size: $fz-x-large;
+        font-weight: $bold-weigth;
+        width: 70px;
+        text-align: center;
+        padding: 27px 10px;
+
+        @media (min-width: 481px) and (max-width: 767px) {
+  
+            /* tablet */
+            
+          }
+
+          @media (min-width: 1281px) {
+  
+            /* desktop */
+            
+          }
+    }
+
+    &__links {
+        
+        padding-right: 20px;
+    }
+
+    &__links__list {
+        float: right;
+        padding-right: 20px;
+    }
+}
