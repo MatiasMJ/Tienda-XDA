@@ -29,11 +29,21 @@
 
     &__links {
         
-        padding-right: 20px;
+        padding: 15px 0 20px 50vw;
+        font-weight: $bold-weigth;
+
+          @media (min-width: 1281px) {
+
+            padding: 15px 0 20px 70vw;
+  
+            /* desktop */
+            
+          }
     }
 
     &__links__list {
-        float: right;
-        padding-right: 20px;
+        float: left;
+        padding: 10px;
+        align-self: center;
     }
 }

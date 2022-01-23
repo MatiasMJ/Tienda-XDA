@@ -1,6 +1,7 @@
 .product {
     padding: 30px;
     color: $color-smoky-black;
+    margin: 20px 0 0 0;
 
     &__title{
         font-family: $old-standard;
@@ -8,17 +9,51 @@
         font-weight: $bold-weigth;
         text-transform: uppercase;
         line-height: normal;
+
+        @media (min-width: 481px) and (max-width: 767px) {
+            
+      
+            /* tablet */
+            
+          }
+    
+          @media (min-width: 1281px) {
+            font-size: $fz-xxx-large;
+            
+            /* desktop */
+            
+          }
     }
 
     &__paragraph{
         color: $color-granite-gray;
         margin: 15px 0;
+
+        @media (min-width: 481px) and (max-width: 767px) {
+            
+      
+            /* tablet */
+            
+          }
+    
+          @media (min-width: 1281px) {
+            padding-right: 1000px;
+            height: 200px;
+            font-size: $fz-x-large;
+            font-weight: $regular-weigth;
+            line-height: 1.5;
+            margin-bottom: 81px;
+            
+            /* desktop */
+            
+          }
     }
 
     &__button{
-        border: solid 3px $color-smoky-black;
+        border: solid 2px $color-smoky-black;
         width: 100px;
         height: 40px;
         font-weight: $bold-weigth;
+        
     }
 }

@@ -3,4 +3,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 230px;
+
+    @media (min-width: 481px) and (max-width: 767px) {
+        background-position-y: -70px;
+        height: 290px;
+  
+        /* tablet */
+        
+      }
+
+      @media (min-width: 1281px) {
+        height: 860px;
+        width: 50vw;
+        float: right;
+        
+        /* desktop */
+        
+      }
 }
