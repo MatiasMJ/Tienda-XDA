@@ -4,7 +4,7 @@
     background-size: cover;
     height: 230px;
 
-    @media (min-width: 481px) and (max-width: 767px) {
+    @media (min-width: 481px) and (max-width: 768px) {
         background-position-y: -70px;
         height: 290px;
   
@@ -16,6 +16,7 @@
         height: 860px;
         width: 50vw;
         float: right;
+        z-index: 3;
         
         /* desktop */
         

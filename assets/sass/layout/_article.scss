@@ -3,6 +3,14 @@
     color: $color-smoky-black;
     margin: 20px 0 0 0;
 
+    @media (min-width: 1281px) {
+        margin: 20px 0 20px 100px;
+        padding: 30px 0;
+        
+        /* desktop */
+        
+      }
+
     &__title{
         font-family: $old-standard;
         font-size: $fz-xx-large;
@@ -30,6 +38,7 @@
         margin: 15px 0;
 
         @media (min-width: 481px) and (max-width: 767px) {
+            margin: 15px 0 30px 0;
             
       
             /* tablet */
