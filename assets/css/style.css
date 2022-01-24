@@ -165,7 +165,7 @@ body {
   text-align: center;
   padding: 27px 10px;
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .navbar__logo {
     /* tablet */
   }
@@ -189,6 +189,72 @@ body {
   float: left;
   padding: 10px;
   align-self: center;
+}
+
+.burger a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  max-width: 200px;
+  font-variant: small-caps;
+}
+
+.burger ul {
+  background-color: #ececec;
+  height: 190px;
+  border-radius: 0 0 0 2px;
+}
+
+.burger input[type=checkbox], .respmenu .fa-bars, .respmenu .fa-times {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+}
+
+.burger .fa-bars, .burger .fa-times {
+  font-size: 48px;
+  pointer-events: none;
+  margin-left: 240px;
+  margin-top: 10px;
+}
+
+.burger input[type=checkbox] {
+  opacity: 0;
+  margin-left: 240px;
+  margin-top: 10px;
+}
+
+.burger {
+  position: relative;
+  min-height: 48px;
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .burger {
+    display: none;
+    /* tablet */
+  }
+}
+@media (min-width: 1281px) {
+  .burger {
+    display: none;
+    /* desktop */
+  }
+}
+
+.burger nav {
+  display: none;
+}
+
+.burger input:checked ~ nav {
+  display: block;
+}
+
+.burger input:checked ~ .fa-bars {
+  display: none;
+}
+
+.burger input:not(:checked) ~ .fa-times {
+  display: none;
 }
 
 .hero {
